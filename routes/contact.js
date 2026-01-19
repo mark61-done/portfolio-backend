@@ -1,5 +1,5 @@
 const express = require('express');
-const ContactMessage = require('../models/ContactMessage');
+const ContactMessage = require('../models/ContactMessage.js');
 
 module.exports = (io) => {
   const router = express.Router();
